@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+   background-color: #CCCCCC;
+}
+#banner{
+    background-image: url("../img/Mostofa\ kamal.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+#about{
+    margin-top: -150px;
+}
+#about .hr-style{
+    border: 3px solid #DC3545;
+    border-bottom: none;
+}
+#contact .hr-style{
+    border: 3px solid #455152;
+    border-bottom: none;
+}
+#skill .hr-style{
+    border: 3px solid #007BFF;
+    border-bottom: none;
+}
+#experience .hr-style{
+    border: 3px solid #28a745;
+    border-bottom: none;
+}
+#experience .card{
+    border-top: 3px solid #DC3545;
+}
